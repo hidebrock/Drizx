@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drizx - O Rei da Noite</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .rainbow-text {
+            background: linear-gradient(90deg, #ff0000, #ff8000, #ffff00, #80ff00, #00ff80, #00ffff, #0080ff, #8000ff, #ff00ff);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            animation: rainbow 8s ease infinite;
+            background-size: 400% 100%;
+        }
+        @keyframes rainbow {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+        .pulse {
+            animation: pulse 2s infinite;
+        }
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+    </style>
+</head>
+<body class="bg-gradient-to-b from-purple-900 to-black text-white min-h-screen">
+    <header class="py-6 px-4 md:px-8">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-3xl md:text-5xl font-bold rainbow-text">DRIZX</h1>
+            <div class="flex space-x-4">
+                <a href="https://wa.me/5547991186119" target="_blank" class="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-full flex items-center transition-all">
+                    <i class="fab fa-whatsapp mr-2"></i> WhatsApp
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-4 md:px-8 py-10">
+        <section class="mb-16 text-center">
+            <div class="max-w-4xl mx-auto">
+                <h2 class="text-4xl md:text-6xl font-bold mb-6 rainbow-text">Adriano "Drizx"</h2>
+                <p class="text-xl md:text-2xl mb-8">O conquistador de corações (e corpos) mais famoso da região! Especialista em homens negros.</p>
+                <div class="relative overflow-hidden rounded-2xl shadow-2xl mb-10">
+                    <img src="https://images.unsplash.com/photo-1583864697784-a0efc8379f70?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=688&q=80" alt="Drizx" class="w-full h-96 object-cover">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent flex items-end p-8">
+                        <div>
+                            <h3 class="text-2xl font-bold">"Negro bonito é meu tipo preferido!"</h3>
+                            <p class="text-sm opacity-80">- Drizx, 2023</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-16">
+            <h2 class="text-3xl font-bold mb-8 text-center rainbow-text">Estatísticas Impressionantes</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-purple-800/50 p-6 rounded-xl text-center">
+                    <div class="text-5xl font-bold mb-2 rainbow-text">200+</div>
+                    <p class="text-lg">Homens conquistados</p>
+                </div>
+                <div class="bg-pink-800/50 p-6 rounded-xl text-center">
+                    <div class="text-5xl font-bold mb-2 rainbow-text">12</div>
+                    <p class="text-lg">Em uma única noite</p>
+                </div>
+                <div class="bg-blue-800/50 p-6 rounded-xl text-center">
+                    <div class="text-5xl font-bold mb-2 rainbow-text">∞</div>
+                    <p class="text-lg">Desejo sexual</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-16">
+            <h2 class="text-3xl font-bold mb-8 text-center rainbow-text">Relatos Épicos</h2>
+            <div class="space-y-6 max-w-3xl mx-auto">
+                <div class="bg-gray-800/50 p-6 rounded-xl">
+                    <p class="italic">"Aquela noite em Balneário foi lendária. Consegui ficar com 12 caras diferentes entre as 23h e as 6h da manhã. Começou no bar, continuou na praia e terminou num motel barato. Melhor ressaca da minha vida!"</p>
+                </div>
+                <div class="bg-gray-800/50 p-6 rounded-xl">
+                    <p class="italic">"Teve um cara que me chamou de 'devorador de picas'. Considero um dos maiores elogios que já recebi."</p>
+                </div>
+                <div class="bg-gray-800/50 p-6 rounded-xl">
+                    <p class="italic">"Meu recorde foi um cara de 22cm. Fiquei uma semana andando estranho, mas valeu cada centímetro!"</p>
+                </div>
+                <div class="bg-gray-800/50 p-6 rounded-xl">
+                    <p class="italic">"Não conto mais quantos homens já fiquei depois que passei de 200. Perdi as contas, mas não perco a vontade!"</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="text-center py-10">
+            <h2 class="text-3xl font-bold mb-6 rainbow-text">Quer fazer parte dessa história?</h2>
+            <p class="text-xl mb-8">Se você tem o que Drizx gosta, não perca tempo!</p>
+            <a href="https://wa.me/5547991186119" target="_blank" class="pulse inline-block bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white text-xl font-bold px-8 py-4 rounded-full transition-all">
+                <i class="fab fa-whatsapp mr-2"></i> CHAMA NO ZAP!
+            </a>
+            <p class="mt-4 text-sm opacity-70">+55 47 99118-6119</p>
+        </section>
+    </main>
+
+    <footer class="py-6 px-4 text-center text-gray-400 text-sm">
+        <p>© 2023 Drizx - Todos os direitos reservados (e todos os homens conquistados)</p>
+        <p class="mt-2">"Negro gato é meu fraco" - Drizx</p>
+    </footer>
+</body>
+</html>
